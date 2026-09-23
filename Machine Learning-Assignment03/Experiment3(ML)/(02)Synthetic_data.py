@@ -11,7 +11,6 @@ data = {
 }
 
 df = pd.DataFrame(data)
-
 print("--- Original Dataset ---")
 print(df)
 numeric_features = ["Age", "Salary", "Years of Experience"]
