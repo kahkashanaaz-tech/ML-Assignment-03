@@ -10,7 +10,6 @@ data = {
     "City": ["Kolkata", "Durgapur", "Kolkata", "Asansol", "Durgapur"],
     "Purchased": [0, 1, 1, 0, 1]
 }
-
 df = pd.DataFrame(data)
 X = df.drop("Purchased", axis=1)
 y = df["Purchased"]
